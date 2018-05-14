@@ -1,3 +1,5 @@
+;The Parser breaks up the input into tokens and forms a parse-tree that can be excecuted by the interpreter.
+
 #lang racket
 (provide parse new-lit-exp lit-exp? LitValue new-var-ref var-ref? Symbol new-prim-proc prim-proc?
          Operator new-app-exp app-exp? arg-values apply-primitive-op new-if-exp if-exp? get-cond
