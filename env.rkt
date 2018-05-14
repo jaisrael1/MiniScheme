@@ -1,3 +1,6 @@
+;The environment stores and updates all of the information required for the code to be properly interpreted
+;It holds variables, primitive operators, primitive procedures, and defined procedures
+
 #lang racket
 (require "parse.rkt")
 
