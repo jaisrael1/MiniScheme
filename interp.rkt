@@ -1,3 +1,5 @@
+;The interpreter evaluates expressions and applies procedures as it walks through the parse tree.
+
 #lang racket
 (require "parse.rkt")
 (require "env.rkt")
