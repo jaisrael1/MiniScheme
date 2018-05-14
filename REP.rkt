@@ -1,3 +1,6 @@
+;Read-eval-print provides the an input-output loop which allows users to excecute scheme code in MiniScheme
+;It handles invalid input, passes valid input to the parser, passes the parse tree to the interpreter, and then prints the output.
+
 #lang racket
 (require "parse.rkt")
 (require "env.rkt")
